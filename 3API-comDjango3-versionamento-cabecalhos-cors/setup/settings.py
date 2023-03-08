@@ -150,8 +150,8 @@ CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',
 ]
 
-"""Usando Redis"""
 # CACHES = {
+# """Usando Redis"""
 #     'default': {
 #         'BACKEND': 'django_redis.cache.RedisCache',
 #         'LOCATION': 'redis://enderençoaqui',
@@ -163,3 +163,7 @@ CORS_ALLOWED_ORIGINS = [
 
 # SESSION_ENGINE = 'django.contrib.sessions.backend.cache'
 # SESSION_CACHE_ALIAS = 'default'
+
+LOCALE_PATHS = (
+    os.path.join(BASE_DIR, 'locale/'),
+)
