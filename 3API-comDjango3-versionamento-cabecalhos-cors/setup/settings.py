@@ -148,3 +148,17 @@ REST_FRAMEWORK = {
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',
 ]
+
+"""Usando Redis"""
+# CACHES = {
+#     'default': {
+#         'BACKEND': 'django_redis.cache.RedisCache',
+#         'LOCATION': 'redis://enderençoaqui',
+#         'OPTIONS': {
+#             'CLIENT_CLASS': 'django_redis.client.DefaultClient',
+#         }
+#     }
+# }
+
+# SESSION_ENGINE = 'django.contrib.sessions.backend.cache'
+# SESSION_CACHE_ALIAS = 'default'
