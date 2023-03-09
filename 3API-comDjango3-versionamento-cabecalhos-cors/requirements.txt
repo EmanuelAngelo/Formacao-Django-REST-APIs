@@ -2,7 +2,9 @@ asgiref==3.6.0
 async-timeout==4.0.2
 autopep8==2.0.2
 Django==4.1.7
+django-admin-honeypot==1.1.0
 django-cors-headers==3.14.0
+django-ipware==5.0.0
 django-redis==5.2.0
 djangorestframework==3.12.2
 Faker==4.14.2
